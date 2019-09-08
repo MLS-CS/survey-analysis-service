@@ -1,4 +1,4 @@
-package com.marketlogicsoftware.cs.surveyanalysisservice;
+package com.marketlogicsoftware.cs;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

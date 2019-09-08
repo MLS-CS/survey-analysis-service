@@ -1,0 +1,28 @@
+
+spring:
+  profiles:
+      active: "prod"
+
+server:
+  servlet:
+    contextPath: /api
+  port: 8082
+
+---
+
+spring:
+  profiles: dev
+app:
+  db:
+    name: submission
+    host: localhost
+
+---
+
+spring:
+  profiles: prod
+app:
+  db:
+    name: submission
+    host: localhost
+    port: 27017

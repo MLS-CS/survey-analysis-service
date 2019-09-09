@@ -12,7 +12,7 @@ This service provides apis to manage survey and support following features :
 
 **API Usage (via Postman)**
  * Retrieve Analysis 
-     * Request URL : http://localhost:8083/api/survey/{surveyId}
+     * Request URL : http://localhost:8082/api/survey/analysis/{surveyId}
      * Response Body:
         ```
         {
